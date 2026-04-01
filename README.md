@@ -66,4 +66,3 @@ Acesse **http://localhost:5173** 🎉
 ## 📄 Documentação
 
 O Mini PRD do projeto está disponível em [PRD.md](./PRD.md).
-```
