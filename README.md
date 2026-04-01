@@ -67,9 +67,3 @@ Acesse **http://localhost:5173** 🎉
 
 O Mini PRD do projeto está disponível em [PRD.md](./PRD.md).
 ```
-
-Depois de salvar, sobe para o GitHub:
-```
-git add .
-git commit -m "atualiza README"
-git push
