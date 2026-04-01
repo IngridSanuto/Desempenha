@@ -1,0 +1,74 @@
+{
+  "areas": [
+    {
+      "id": "1",
+      "nome": "Física",
+      "cor": "#00FFFF"
+    },
+    {
+      "id": "2",
+      "nome": "Matemática",
+      "cor": "#cc0a13"
+    },
+    {
+      "nome": "Desenvolvimento Web",
+      "cor": "#5286E6",
+      "id": "lIDYubir1oo"
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1",
+      "nome": "Movimento uniforme",
+      "areaId": 1
+    },
+    {
+      "nome": "Equação do segundo grau",
+      "areaId": 2,
+      "id": "23TgmGXkNyE"
+    },
+    {
+      "nome": "HTML e CSS",
+      "areaId": "lIDYubir1oo",
+      "id": "SgrH5sd8dAo"
+    }
+  ],
+  "registros": [
+    {
+      "id": "1",
+      "nome": "Lista 1",
+      "data": "24-03-2026",
+      "acertos": 10,
+      "erros": 5,
+      "areaId": 1,
+      "topicoId": 1
+    },
+    {
+      "nome": "Lista 2",
+      "data": "2026-03-29",
+      "areaId": 1,
+      "topicoId": 1,
+      "acertos": 15,
+      "erros": 9,
+      "id": "x9WeNiFUpMU"
+    },
+    {
+      "nome": "Lista de exercícios",
+      "data": "2026-03-31",
+      "areaId": "lIDYubir1oo",
+      "topicoId": "SgrH5sd8dAo",
+      "acertos": 10,
+      "erros": 2,
+      "id": "IW2ii31xMLk"
+    },
+    {
+      "nome": "simulado",
+      "data": "2026-03-31",
+      "areaId": "2",
+      "topicoId": "23TgmGXkNyE",
+      "acertos": 9,
+      "erros": 10,
+      "id": "wmAvurB5mGc"
+    }
+  ]
+}

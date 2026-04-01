@@ -1,0 +1,40 @@
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.12);
+    border: 1px solid #ede9fe;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card:hover {
+    border-color: #7c3aed;
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.2);
+}
+
+.nome {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e1b4b;
+    margin: 0 0 12px 0;
+}
+
+.pct {
+    font-size: 26px;
+    font-weight: 800;
+    color: #7c3aed;
+    margin: 0;
+}
+
+.info {
+    font-size: 14px;
+    color: #1e1b4b;
+    margin-top: 4px;
+}
+
+.link {
+    font-size: 14px;
+    color: #7c3aed;
+    margin-top: 12px;
+}
