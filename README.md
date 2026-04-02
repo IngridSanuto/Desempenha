@@ -58,8 +58,8 @@ Acesse **http://localhost:5173** 🎉
 
 ## 🌐 Deploy
 
-- 🖥️ Frontend: 
-- ⚙️ API: 
+- 🖥️ Frontend: https://desempenha.vercel.app/
+- ⚙️ API: https://desempenha-api.onrender.com/
 
 ---
 
