@@ -44,7 +44,7 @@ async function handleSalvar(dados: Omit<Area, 'id'>) {
 }
 
     return (
-    <div className={styles.container}>
+    <main className={styles.container}>
         <div className={styles.header}>
             <div>
                 <h1 className={styles.titulo}>Áreas</h1>
@@ -72,5 +72,5 @@ async function handleSalvar(dados: Omit<Area, 'id'>) {
                 ))
             }
         </div>
-    </div>
+    </main>
 )}

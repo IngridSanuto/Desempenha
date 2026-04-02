@@ -52,7 +52,7 @@ export default function Registros() {
     }
 
     return (
-    <div className={styles.page}>
+    <main className={styles.page}>
         <div className={styles.header}>
             <div>
                 <h1 className={styles.titulo}>Registros</h1>
@@ -97,5 +97,5 @@ export default function Registros() {
                 })
             }
         </div>
-    </div>
+    </main>
 )}

@@ -20,8 +20,8 @@ export default function ModalNovoConteudo({ aberto, onFechar, onSalvar, areaId }
                     onChange={e => setNome(e.target.value)}
                 />
                 <div className={styles.botoes}>
-                    <button className={styles.cancelar} onClick={onFechar}>Cancelar</button>
-                    <button className={styles.salvar} onClick={() => {
+                    <button aria-label="Cancelar novo conteudo" className={styles.cancelar} onClick={onFechar}>Cancelar</button>
+                    <button aria-label="Salvar novo conteudo" className={styles.salvar} onClick={() => {
                         onSalvar({ nome, areaId })
                         onFechar()
                     }}>Adicionar</button>

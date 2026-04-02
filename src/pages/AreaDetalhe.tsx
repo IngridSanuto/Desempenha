@@ -42,7 +42,7 @@ export default function AreaDetalhe() {
 }
     
     return (
-    <div className={styles.page}>
+    <main className={styles.page}>
         <div className={styles.header}>
             <div>
                 <h1 className={styles.titulo}>Conteúdos da área</h1>
@@ -66,5 +66,5 @@ export default function AreaDetalhe() {
                     return <TopicItem key={topico.id} topico={topico} acertos={acertos} erros={erros} numRegistros={doTopico.length}/>
                 })}
         </div>
-    </div>
+    </main>
 )}

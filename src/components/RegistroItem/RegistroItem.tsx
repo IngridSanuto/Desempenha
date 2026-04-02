@@ -24,6 +24,6 @@ export default function RegistroItem({ registro, nomeArea, nomeTopico, onDeletar
             <p className={styles.pct} style={{color: corPct(pct)}}>{pct}%</p>
             <p className={styles.detalhes}>✅ {registro.acertos} · ❌ {registro.erros}</p>
         </div>
-        <button className={styles.deletar} onClick={onDeletar}>✕</button>
+        <button aria-label="Deletar registro" className={styles.deletar} onClick={onDeletar}>✕</button>
     </div>
 )}

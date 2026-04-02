@@ -20,8 +20,8 @@ export default function ModalNovaArea({ aberto, onFechar, onSalvar }: { aberto: 
                     onChange={e => setNome(e.target.value)}
                 />
                 <div className={styles.botoes}>
-                    <button className={styles.cancelar} onClick={onFechar}>Cancelar</button>
-                    <button className={styles.salvar} onClick={() => {
+                    <button aria-label="Cancelar nova área" className={styles.cancelar} onClick={onFechar}>Cancelar</button>
+                    <button aria-label="Salvar nova área" className={styles.salvar} onClick={() => {
                         onSalvar({ nome, cor: "#5286E6" })
                         onFechar()
                     }}>Adicionar</button>

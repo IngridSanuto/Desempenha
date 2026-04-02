@@ -50,7 +50,7 @@ export default function Dashboard() {
 } 
 
 return (
-    <div className={styles.page}>
+    <main className={styles.page}>
         <div className={styles.header}>
             <h1 className={styles.titulo}>Seu desempenho</h1>
             <p className={styles.subtitulo}>{registros.length} registro(s) · {areas.length} área(s)</p>
@@ -103,5 +103,5 @@ return (
                 </div>
             ))}
         </div>
-    </div>
+    </main>
 )}

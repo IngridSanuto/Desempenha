@@ -72,8 +72,8 @@ export default function ModalNovoRegistro({ aberto, onFechar, areas, topicos, on
             </div>
 
             <div className={styles.botoes}>
-                <button className={styles.cancelar} onClick={onFechar}>Cancelar</button>
-                <button className={styles.salvar} onClick={handleSalvar}>Salvar</button>
+                <button aria-label="Cancelar novo registro" className={styles.cancelar} onClick={onFechar}>Cancelar</button>
+                <button aria-label="Salvar novo registro" className={styles.salvar} onClick={handleSalvar}>Salvar</button>
             </div>
         </div>
     </div>
