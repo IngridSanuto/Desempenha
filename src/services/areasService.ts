@@ -1,13 +1,13 @@
 import type { Area } from "../types"
 
 export async function getAreas() {
-    const resposta = await fetch("http://localhost:3001/areas")
+    const resposta = await fetch("https://desempenha-api.onrender.com/areas")
     const dados = await resposta.json()
     return dados
 }
 
 export async function createArea(novaArea: Omit<Area, 'id'>) {
-    const resposta = await fetch("http://localhost:3001/areas", {
+    const resposta = await fetch("https://desempenha-api.onrender.com/areas", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(novaArea)
@@ -16,7 +16,7 @@ export async function createArea(novaArea: Omit<Area, 'id'>) {
 }
 
 export async function deleteArea(id: number) {
-    await fetch(`http://localhost:3001/areas/${id}`, {
+    await fetch(`https://desempenha-api.onrender.com/areas/${id}`, {
         method: "DELETE"
     })
 }
